@@ -1,0 +1,35 @@
+# Example: Basic Startup Project
+# Simple specification for a minimal viable product
+
+project: "MyStartup MVP"
+version: "0.1.0"
+description: >
+  Minimal viable product for user management and basic CRUD operations.
+  Focus on core functionality to validate business hypothesis.
+
+goals:
+  - Validate user acquisition through social login
+  - Test market acceptance with core feature set
+  - Gather feedback on user experience and value proposition
+  - Establish technical foundation for future scaling
+
+constraints:
+  - Must launch within 3 months
+  - Must support web and mobile browsers
+  - Must comply with basic privacy regulations
+  - Must demonstrate product-market fit
+
+features:
+  - name: "User Authentication"
+    description: "Simple login and registration system"
+    requirements:
+      - Email and password authentication
+      - Basic user profile creation
+      - Session management
+
+  - name: "Core Product Feature"
+    description: "Main value proposition functionality"
+    requirements:
+      - Create simple data entry forms
+      - Basic data display and editing
+      - One-click sharing capabilities

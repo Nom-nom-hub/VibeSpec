@@ -1,0 +1,125 @@
+# Example: Web API Service Specification
+# Generated from the 'api' template
+# This is a complete, production-ready API specification
+
+project: "User Management API"
+version: "2.1.0"
+description: >
+  RESTful API service for comprehensive user management including authentication,
+  profiles, permissions, and advanced user operations. Built for high scalability
+  and reliability with modern security standards.
+
+goals:
+  - "Achieve 99.9% API availability with <200ms response times"
+  - "Support 10,000+ concurrent users with seamless scaling"
+  - "Provide zero-trust security model with OAuth 2.0 and JWT"
+  - "Enable real-time user activity monitoring and analytics"
+  - "Deliver comprehensive API documentation and SDK generation"
+  - "Reduce operational overhead through automated monitoring and alerting"
+
+constraints:
+  - "Must implement OAuth 2.0 and OpenID Connect standards"
+  - "Must support horizontal scaling across multiple data centers"
+  - "Must provide 24/7 uptime with automatic failover capabilities"
+  - "Must comply with GDPR, CCPA, and SOC 2 security requirements"
+  - "Must support API rate limiting at 1000 requests/user/minute"
+  - "Must provide backward compatibility for 2 major versions"
+  - "Must generate OpenAPI 3.0 documentation automatically"
+  - "Must support CORS for web application integration"
+
+features:
+  - name: "User Authentication"
+    description: "Comprehensive authentication system with multiple providers"
+    requirements:
+      - "Implement OAuth 2.0 authorization code flow with PKCE"
+      - "Support JWT tokens with configurable expiration times"
+      - "Provide refresh token rotation for enhanced security"
+      - "Enable multi-factor authentication (SMS, TOTP, WebAuthn)"
+      - "Support social login (Google, GitHub, Facebook)"
+      - "Implement automatic token refresh and session management"
+      - "Provide IP-based rate limiting and abuse detection"
+      - "Enable session invalidation on suspicious activity"
+
+  - name: "User Profiles"
+    description: "Flexible user profile management with customization"
+    requirements:
+      - "Support avatar upload and storage with multiple formats"
+      - "Enable custom profile fields and metadata storage"
+      - "Provide privacy controls for profile visibility settings"
+      - "Support user localization with timezone and language settings"
+      - "Enable profile verification with email/phone confirmation"
+      - "Provide profile export/download functionality"
+      - "Support bulk user operations for administrative tasks"
+      - "Maintain audit trail for all profile changes"
+
+  - name: "Role-Based Authorization"
+    description: "Granular permission system with RBAC implementation"
+    requirements:
+      - "Implement fine-grained permissions with resource-based access"
+      - "Support custom role creation and assignment by administrators"
+      - "Provide role inheritance and permission combinations"
+      - "Enable temporary privilege escalation with approval workflows"
+      - "Support service account management for API integrations"
+      - "Implement permission caching for performance optimization"
+      - "Provide audit logging for all permission changes"
+      - "Support bulk role assignments for organizational units"
+
+  - name: "User Activity Monitoring"
+    description: "Comprehensive tracking and analytics system"
+    requirements:
+      - "Track user login/logout events with IP and device information"
+      - "Monitor API usage patterns and rate limiting violations"
+      - "Provide real-time dashboard for administrative monitoring"
+      - "Support configurable alerts for suspicious activities"
+      - "Enable GDPR-compliant data retention policies"
+      - "Provide usage analytics and reporting capabilities"
+      - "Support webhook integration for external monitoring systems"
+      - "Implement data aggregation for performance metrics"
+
+  - name: "API Documentation"
+    description: "Automatic documentation generation and management"
+    requirements:
+      - "Generate OpenAPI 3.0 specification automatically from code"
+      - "Provide interactive Swagger UI documentation interface"
+      - "Support multiple documentation formats (PDF, HTML, JSON)"
+      - "Enable example requests/responses for all endpoints"
+      - "Provide SDK generation for multiple programming languages"
+      - "Support API versioning with concurrent documentation"
+      - "Include comprehensive error response documentation"
+      - "Enable team collaboration features for API design"
+
+  - name: "Data Management"
+    description: "Robust data handling with backup and recovery"
+    requirements:
+      - "Implement atomic database transactions for data consistency"
+      - "Provide automated backup scheduling with encryption"
+      - "Support database failover and replication across regions"
+      - "Enable point-in-time recovery for disaster scenarios"
+      - "Implement data archiving for compliance and performance"
+      - "Support database connection pooling and optimization"
+      - "Provide migration tools for schema updates"
+      - "Enable database performance monitoring and optimization"
+
+  - name: "Security & Compliance"
+    description: "Advanced security measures and compliance frameworks"
+    requirements:
+      - "Implement input validation and sanitization for all endpoints"
+      - "Enable Content Security Policy (CSP) headers and protections"
+      - "Provide API key rotation and management capabilities"
+      - "Support TLS 1.3 with perfect forward secrecy"
+      - "Implement security headers (HSTS, X-Frame-Options, etc.)"
+      - "Enable automated security scanning and vulnerability assessment"
+      - "Provide penetration testing and security audit capabilities"
+      - "Support compliance reporting and documentation management"
+
+  - name: "Scalability & Performance"
+    description: "System designed for high-performance and scalability"
+    requirements:
+      - "Implement API response caching with Redis/Varnish"
+      - "Enable horizontal scaling with load balancing capabilities"
+      - "Support database sharding for write-heavy workloads"
+      - "Provide CDN integration for static asset delivery"
+      - "Implement request queuing and throttling mechanisms"
+      - "Enable microservice architecture with service mesh"
+      - "Support multi-region deployment with data synchronization"
+      - "Provide performance monitoring with APM integration"

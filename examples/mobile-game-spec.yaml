@@ -1,0 +1,92 @@
+# Example: Mobile Game Specification
+# Generated from the 'game' template
+# This demonstrates a complete game development specification
+
+project: "Cosmic Runner"
+version: "1.0.1"
+description: >
+  An addictive endless runner game featuring procedural generation, power-ups,
+  multiplayer leaderboards, and monetization through ad-supported free-to-play model.
+  Designed to retain players through engaging progression systems and social features.
+
+goals:
+  - "Achieve 4.8+ App Store rating with 85% player retention after 7 days"
+  - "Monetize through non-intrusive ads targeting 15-25% ARPDAU"
+  - "Build a community of 100K+ active players within 6 months"
+  - "Deliver 60fps gameplay across 90% of target Android devices"
+  - "Implement rollback-resistant IAP system ensuring player trust"
+  - "Create viral social features driving organic user acquisition"
+
+constraints:
+  - "Target Android 8.0+ and iOS 13+ minimum requirements"
+  - "Maintain APK/IPA size under 150MB total download"
+  - "Achieve 20MB initial download with on-demand asset downloading"
+  - "Support offline gameplay for core single-player experience"
+  - "Comply with COPPA and ESRB ratings for teen audience"
+  - "Implement privacy controls for data collection and sharing"
+  - "Provide accessibility features for wider player base"
+
+features:
+  - name: "Core Gameplay Loop"
+    description: "Endless runner mechanics with progression and challenges"
+    requirements:
+      - "Implement smooth character movement with physics-based controls"
+      - "Create procedural level generation with semi-random obstacles"
+      - "Design power-up system affecting speed, jump height, and abilities"
+      - "Implement collision detection with multiple hit zones"
+      - "Enable touch controls optimized for thumbs and one-handed play"
+      - "Support controller input for TV/consoles without compromising mobile UX"
+      - "Implement cheat detection to maintain competitive fairness"
+
+  - name: "Progression Systems"
+    description: "Player advancement through unlocking and customization"
+    requirements:
+      - "Design skill tree with mutually exclusive upgrade paths"
+      - "Implement character customization system with 20+ unique skins"
+      - "Create achievement system with 50+ specific accomplishments"
+      - "Enable cross-platform progress synchronization via cloud save"
+      - "Support seasonal events with time-limited content and rewards"
+      - "Implement daily login rewards and streak bonuses"
+      - "Provide milestone tracking with visual progress indicators"
+
+  - name: "Monetization Integration"
+    description: "Ad and IAP systems designed for player satisfaction"
+    requirements:
+      - "Integrate rewarded video ads after level completions"
+      - "Implement interstitial ads with smart timing and frequency caps"
+      - "Create virtual currency system (coins and premium currency)"
+      - "Design cosmetic-only IAP to avoid pay-to-win mechanics"
+      - "Enable ad revenue sharing with 70/30 developer/publisher split"
+      - "Implement regional pricing for IAP across different markets"
+
+  - name: "Social Features"
+    description: "Community building and competitive elements"
+    requirements:
+      - "Create global leaderboard with weekly/daily leaderboards"
+      - "Implement friend system with challenge sending capabilities"
+      - "Enable spectating other players' runs with replay functionality"
+      - "Support recording and sharing of personal best runs"
+      - "Create guild/clan system with cooperative progression bonuses"
+      - "Implement cross-promotion with other games in portfolio"
+      - "Enable social login options for simplified onboarding"
+
+  - name: "Performance Optimization"
+    description: "Resource management for smooth mobile gaming experience"
+    requirements:
+      - "Implement dynamic quality settings based on device capability"
+      - "Create asset streaming system for on-demand content loading"
+      - "Optimize shaders and materials for mobile GPU limitations"
+      - "Enable background music downloading and caching"
+      - "Implement thermal throttling detection and FPS adjustments"
+      - "Support device-specific optimizations for ARM Mali/PowerVR Adreno"
+
+  - name: "Data Analytics"
+    description: "Player behavior tracking and game balancing insights"
+    requirements:
+      - "Track retention rates across daily/weekly/monthly intervals"
+      - "Monitor IAP conversion rates and LTV calculations"
+      - "Analyze feature usage to identify abandonment points"
+      - "Implement A/B testing framework for game balance changes"
+      - "Track demographic data for market segmentation"
+      - "Generate player satisfaction surveys for UX improvements"
+      - "Measure ad effectiveness across different placement strategies"
