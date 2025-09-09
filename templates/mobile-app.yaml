@@ -1,0 +1,57 @@
+# VibeSpec Template: Mobile Application
+metadata:
+  name: "Mobile Application"
+  description: "Native mobile app for iOS and Android platforms"
+  category: "Mobile"
+  type: "application"
+  version: "1.0.0"
+  author: "VibeSpec Team"
+  tags: ["mobile", "ios", "android", "native", "responsive"]
+  dependencies: ["native framework", "mobile database", "push notifications"]
+  lastUpdated: "2025-09-09"
+  compatibleWith: ["mobile", "cross-platform"]
+
+templateConfig:
+  generateFrom: "content"
+  variables: []
+
+content: |
+  # Mobile Application Specification
+  project: "Mobile App"
+  version: "1.0.0"
+  description: >
+    A native mobile application supporting both iOS and Android platforms.
+    Designed for mobile-specific user experiences and optimal performance.
+
+  goals:
+    - Provide native mobile experience and performance
+    - Support both iOS and Android platforms consistently
+    - Enable offline functionality when possible
+    - Deliver battery-efficient and storage-optimized app
+
+  constraints:
+    - Must run on iOS 13+ and Android 8+
+    - Must work offline in core functionality
+    - Must comply with App Store and Play Store guidelines
+
+  features:
+    - name: "Platform-Specific UI"
+      description: "Native platform UIs adhering to design guidelines"
+      requirements:
+        - Follow iOS Human Interface Guidelines
+        - Follow Google Material Design principles
+        - Implement platform-specific navigation patterns
+
+    - name: "Offline Support"
+      description: "Offline functionality and data synchronization"
+      requirements:
+        - Identify offline-capable features
+        - Implement local data storage strategies
+        - Handle conflict resolution on sync
+
+    - name: "App State Management"
+      description: "Background processes and state handling"
+      requirements:
+        - Handle app lifecycle events correctly
+        - Implement proper push notification system
+        - Manage background refresh and updates

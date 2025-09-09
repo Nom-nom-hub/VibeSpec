@@ -1,0 +1,69 @@
+# VibeSpec Template: Library/SDK
+metadata:
+  name: "Library/SDK"
+  description: "Reusable code library or software development kit"
+  category: "Development"
+  type: "library"
+  version: "1.0.0"
+  author: "VibeSpec Team"
+  tags: ["library", "sdk", "reusable", "package"]
+  dependencies:
+    - "typescript"
+    - "testing framework"
+  lastUpdated: "2025-09-09"
+  compatibleWith:
+    - "all"
+
+templateConfig:
+  generateFrom: "content"
+  variables: []
+
+content: |
+  # Library/SDK Specification
+  project: "Code Library"
+  version: "1.0.0"
+  description: >
+    A reusable code library or SDK providing specific functionality.
+    Designed for integration into other projects with comprehensive documentation.
+
+  goals:
+    - Provide well-documented API surface area
+    - Ensure ease of integration and use
+    - Maintain backward compatibility through versions
+    - Deliver comprehensive testing and reliability
+    - Support multiple programming languages/frameworks
+
+  constraints:
+    - Must maintain stable public API contracts
+    - Must provide comprehensive documentation
+    - Must include automated testing (80%+ coverage)
+    - Must support semantic versioning
+    - Must have package manager integration
+
+  features:
+    - name: "Core API Surface"
+      description: "Primary functions and classes exposed to consumers"
+      requirements:
+        - Define clear and consistent public API
+        - Provide simple getting started examples
+        - Include type definitions for TypeScript users
+        - Support common usage patterns and idioms
+        - Document all public methods and parameters
+
+    - name: "Configuration & Setup"
+      description: "Easy integration and configuration for consumers"
+      requirements:
+        - Provide simple setup and initialization
+        - Support configuration via environment variables
+        - Include default configuration options
+        - Provide configuration validation
+        - Enable feature flags and options
+
+    - name: "Error Handling"
+      description: "Comprehensive error handling and reporting"
+      requirements:
+        - Define clear error types and codes
+        - Provide meaningful error messages
+        - Support error recovery and retry mechanisms
+        - Log errors appropriately for debugging
+        - Handle edge cases and invalid inputs gracefully

@@ -1,0 +1,61 @@
+{
+  "name": "vibespec",
+  "version": "0.1.0",
+  "description": "A spec-driven development tool that integrates with AI coders (Cursor, Codex CLI, Copilot, Gemini CLI, Ollama, etc.) to enforce structured development, prevent drift, and provide traceability between requirements and generated code.",
+  "main": "lib/index.js",
+  "bin": {
+    "vibe": "./bin/vibe.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node lib/index.js",
+    "dev": "ts-node src/index.ts",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write src/**/*.ts"
+  },
+  "keywords": [
+    "spec-driven-development",
+    "ai-coding",
+    "cli",
+    "development-tools",
+    "traceability",
+    "yaml",
+    "specifications"
+  ],
+  "author": "VibeSpec Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vibespec/vibespec.git"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "js-yaml": "^4.1.0",
+    "chalk": "^5.3.0",
+    "fs-extra": "^11.1.1",
+    "inquirer": "^9.2.0",
+    "ora": "^7.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "@types/js-yaml": "^4.0.5",
+    "@types/fs-extra": "^11.0.1",
+    "@types/inquirer": "^9.0.3",
+    "typescript": "^5.2.0",
+    "ts-node": "^10.9.0",
+    "jest": "^29.7.0",
+    "@types/jest": "^29.5.5",
+    "eslint": "^8.50.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
+    "@typescript-eslint/parser": "^6.7.0",
+    "prettier": "^3.0.0"
+  },
+  "files": [
+    "lib",
+    "bin"
+  ]
+}

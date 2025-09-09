@@ -1,0 +1,72 @@
+# VibeSpec Template: AI Agent
+metadata:
+  name: "AI Agent"
+  description: "Intelligent agent with learning capabilities and API integration"
+  category: "AI/ML"
+  type: "agent"
+  version: "1.0.0"
+  author: "VibeSpec Team"
+  tags: ["ai", "agent", "ml", "automation", "api-integration"]
+  dependencies:
+    - "python"
+    - "machine learning framework"
+    - "natural language processing library"
+  lastUpdated: "2025-09-09"
+  compatibleWith:
+    - "ai"
+    - "automation"
+    - "web"
+
+templateConfig:
+  generateFrom: "content"
+  variables: []
+
+content: |
+  # AI Agent Specification
+  project: "AI Agent"
+  version: "1.0.0"
+  description: >
+    An intelligent agent capable of autonomous decision-making, learning from interactions,
+    and integrating with various APIs and data sources for enhanced functionality.
+
+  goals:
+    - Deliver intelligent and contextually aware responses
+    - Learn from user interactions and adapt over time
+    - Provide seamless integration with existing systems
+    - Ensure responsible and ethical AI behavior
+    - Maintain high performance and response accuracy
+
+  constraints:
+    - Must comply with relevant AI ethics and privacy guidelines
+    - Must handle edge cases and adversarial inputs gracefully
+    - Must support multiple languages and conversational styles
+    - Must provide transparency in decision-making processes
+    - Must implement proper rate limiting and resource management
+
+  features:
+    - name: "Conversational Intelligence"
+      description: "Natural language processing and dialogue management"
+      requirements:
+        - Support multiple conversation contexts and memory
+        - Implement intent recognition and entity extraction
+        - Handle conversation flow and follow-up questions
+        - Provide personality adaptation for different user types
+        - Support multi-turn conversations with context retention
+
+    - name: "Learning & Adaptation"
+      description: "Continuous learning and behavioral adaptation"
+      requirements:
+        - Implement feedback loop for user interactions
+        - Enable learning from successful vs unsuccessful responses
+        - Support preference learning and personalization
+        - Provide mechanism for correcting misinformation
+        - Enable knowledge base expansion and updates
+
+    - name: "API Integration"
+      description: "Integration with external services and data sources"
+      requirements:
+        - Provide connector framework for common APIs
+        - Implement authentication and security for API calls
+        - Support webhook integration for real-time updates
+        - Enable API response caching and optimization
+        - Provide error handling and circuit breaker patterns

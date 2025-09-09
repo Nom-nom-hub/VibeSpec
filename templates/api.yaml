@@ -1,0 +1,40 @@
+# VibeSpec Template: API Specification
+metadata:
+  name: "API Specification"
+  description: "Template for API-first development"
+  category: "Backend"
+  type: "api"
+  version: "1.0.0"
+  author: "VibeSpec Team"
+  tags: ["api", "rest", "backend", "integration"]
+  dependencies: []
+  lastUpdated: "2025-09-09"
+  compatibleWith: ["backend", "frontend"]
+
+templateConfig:
+  generateFrom: "content"
+  variables: []
+
+content: |
+  # API Specification
+  project: "API Service"
+  version: "1.0.0"
+  description: >
+    REST API specification and endpoints
+
+  goals:
+    - Provide clean and consistent API
+    - Ensure high availability
+
+  features:
+    - name: "Authentication Endpoints"
+      description: "API authentication"
+      requirements:
+        - Implement OAuth 2.0 flow
+        - Provide token refresh mechanism
+
+    - name: "Resource Management"
+      description: "CRUD operations for resources"
+      requirements:
+        - Implement proper HTTP status codes
+        - Support pagination for collections

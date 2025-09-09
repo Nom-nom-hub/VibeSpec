@@ -1,0 +1,43 @@
+# VibeSpec Template: Product Requirements Document
+metadata:
+  name: "Product Requirements Document"
+  description: "Template for detailed product specifications"
+  category: "Business"
+  type: "documentation"
+  version: "1.0.0"
+  author: "VibeSpec Team"
+  tags: ["product", "requirements", "documentation", "business"]
+  dependencies: []
+  lastUpdated: "2025-09-09"
+  compatibleWith: ["business", "product"]
+
+templateConfig:
+  generateFrom: "content"
+  variables: []
+
+content: |
+  # Product Requirements Document
+  project: "Product Name"
+  version: "1.0.0"
+  description: >
+    Product requirements and specifications
+
+  goals:
+    - Meet customer needs effectively
+    - Ensure product-market fit
+    - Drive user adoption and satisfaction
+
+  features:
+    - name: "Core User Journey"
+      description: "Primary user workflow and experience"
+      requirements:
+        - Fast and intuitive user interface
+        - Clear navigation and user flow
+        - Responsive design for all devices
+
+    - name: "Business Logic"
+      description: "Core business functionality"
+      requirements:
+        - Implement required business rules
+        - Ensure data integrity
+        - Provide comprehensive validation

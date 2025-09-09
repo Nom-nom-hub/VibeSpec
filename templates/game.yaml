@@ -1,0 +1,72 @@
+# VibeSpec Template: Game Development
+metadata:
+  name: "Game Development"
+  description: "Interactive game with mechanics, levels, and engaging gameplay"
+  category: "Gaming"
+  type: "game"
+  version: "1.0.0"
+  author: "VibeSpec Team"
+  tags: ["game", "entertainment", "mechanics", "levels", "progression"]
+  dependencies:
+    - "game engine"
+    - "graphics framework"
+    - "audio library"
+  lastUpdated: "2025-09-09"
+  compatibleWith:
+    - "gaming"
+    - "entertainment"
+    - "real-time"
+
+templateConfig:
+  generateFrom: "content"
+  variables: []
+
+content: |
+  # Game Development Specification
+  project: "Game Title"
+  version: "1.0.0"
+  description: >
+    An interactive gaming experience with engaging mechanics, progressive difficulty,
+    and compelling progression systems designed to retain and entertain players.
+
+  goals:
+    - Deliver engaging and enjoyable gaming experience
+    - Provide appropriate challenge progression
+    - Ensure consistent performance across platforms
+    - Enable social features and competitive gameplay
+    - Support accessibility and inclusive design
+
+  constraints:
+    - Must support target platforms (PC/console/mobile)
+    - Must achieve target frame rates and performance metrics
+    - Must comply with platform-specific guidelines
+    - Must implement proper monetization fairness
+    - Must provide offline and online gameplay options
+
+  features:
+    - name: "Core Gameplay"
+      description: "Fundamental game mechanics and player interactions"
+      requirements:
+        - Implement core loop mechanics and player controls
+        - Define win/lose conditions and progress systems
+        - Create difficulty scaling and adaptive challenges
+        - Balance game elements for fair play experience
+        - Support multiple input methods (keyboard/mouse/gamepad/touch)
+
+    - name: "Progression & Rewards"
+      description: "Character development and earning systems"
+      requirements:
+        - Implement leveling and skill progression systems
+        - Design achievement and reward mechanics
+        - Create unlockable content and cosmetics
+        - Enable multiple play styles and specialization paths
+        - Provide meaningful player progression feedback
+
+    - name: "Multiplayer & Social"
+      description: "Social interactions and competitive features"
+      requirements:
+        - Support local and online multiplayer modes
+        - Implement matchmaking and leaderboard systems
+        - Enable player profiles and social sharing
+        - Provide cooperative and competitive game modes
+        - Support cross-platform play compatibility

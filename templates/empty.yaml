@@ -1,0 +1,27 @@
+# VibeSpec Template: Empty
+metadata:
+  name: "Empty Template"
+  description: "Minimal template for complete customization"
+  category: "Generic"
+  type: "minimal"
+  version: "1.0.0"
+  author: "VibeSpec Team"
+  tags: ["minimal", "custom", "blank"]
+  dependencies: []
+  lastUpdated: "2025-09-09"
+  compatibleWith: ["all"]
+
+templateConfig:
+  generateFrom: "content"
+  variables: []
+
+content: |
+  # VibeSpec Project
+  project: "Project Name"
+  version: "0.1.0"
+  description: >
+    Project description
+
+  goals: []
+
+  features: []

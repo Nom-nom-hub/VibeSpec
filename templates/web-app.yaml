@@ -1,0 +1,65 @@
+# VibeSpec Template: Web Application
+metadata:
+  name: "Web Application"
+  description: "Modern web application with UI, routing, and state management"
+  category: "Web"
+  type: "application"
+  version: "1.0.0"
+  author: "VibeSpec Team"
+  tags: ["web", "frontend", "responsive", "ui", "routing"]
+  dependencies: ["javascript", "css", "framework"]
+  lastUpdated: "2025-09-09"
+  compatibleWith: ["web", "mobile"]
+
+templateConfig:
+  generateFrom: "content"
+  variables: []
+
+content: |
+  # Web Application Specification
+  project: "Web App"
+  version: "1.0.0"
+  description: >
+    A modern web application with responsive design, routing, and state management.
+    Built for cross-browser compatibility and excellent user experience.
+
+  goals:
+    - Provide an intuitive and responsive web interface
+    - Ensure fast loading and smooth user interactions
+    - Support modern browsers and devices
+    - Deliver an accessible and inclusive user experience
+
+  constraints:
+    - Must be compatible with Chrome, Firefox, Safari, Edge
+    - Must work on desktop and mobile devices
+    - Must support screen readers and keyboard navigation
+    - Must load within 3 seconds on 3G connection
+    - Must follow WCAG 2.1 AA accessibility guidelines
+
+  features:
+    - name: "User Interface & Design"
+      description: "Clean, responsive interface design and components"
+      requirements:
+        - Implement responsive design for all screen sizes
+        - Use consistent design system and component library
+        - Support dark/light theme switching
+        - Ensure 60fps animations and smooth interactions
+        - Provide feedback for all user actions
+
+    - name: "Navigation & Routing"
+      description: "Client-side routing and navigation system"
+      requirements:
+        - Implement SPA routing with browser back/forward support
+        - Provide breadcrumb navigation for complex flows
+        - Include loading states for page transitions
+        - Support deep linking and URL sharing
+        - Handle offline navigation gracefully
+
+    - name: "State Management"
+      description: "Client-side application state and data handling"
+      requirements:
+        - Implement global state management system
+        - Handle local storage for user preferences
+        - Support optimistic updates with error recovery
+        - Provide data caching and synchronization
+        - Manage complex form states and validation

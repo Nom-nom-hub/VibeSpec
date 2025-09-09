@@ -1,0 +1,52 @@
+# VibeSpec Template: Default
+# Metadata for template management and auto-updating
+metadata:
+  name: "Default Template"
+  description: "Basic project structure with common features"
+  category: "Generic"
+  type: "project"
+  version: "1.0.0"
+  author: "VibeSpec Team"
+  tags: ["starter", "generic", "basic"]
+  dependencies: []
+  lastUpdated: "2025-09-09"
+  compatibleWith:
+    - "all"
+
+# Template configuration (how it should be processed)
+templateConfig:
+  generateFrom: "content"  # Use the 'content' field below
+  variables: []  # No dynamic variables for this basic template
+
+# The actual spec template content
+content: |
+  # VibeSpec Project
+  project: "My Project"
+  version: "0.1.0"
+  description: >
+    A description of your project and its purpose
+
+  goals:
+    - Deliver a high-quality product
+    - Maintain code quality and standards
+    - Ensure scalability and maintainability
+
+  constraints:
+    - Must be compatible with Node.js 16+
+    - Must follow RESTful API conventions
+    - Must include comprehensive testing
+
+  features:
+    - name: "User Authentication"
+      description: "Handle user registration and login"
+      requirements:
+        - Support email/password authentication
+        - Include password reset functionality
+        - Provide JWT token-based sessions
+
+    - name: "Data Storage"
+      description: "Store and manage application data"
+      requirements:
+        - Use relational database (PostgreSQL/MySQL)
+        - Implement proper database schema
+        - Include database migrations

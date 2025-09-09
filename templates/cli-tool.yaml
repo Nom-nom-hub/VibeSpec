@@ -1,0 +1,49 @@
+# VibeSpec Template: CLI Tool
+metadata:
+  name: "CLI Tool"
+  description: "Command-line interface tool with commands and options"
+  category: "DevOps"
+  type: "tool"
+  version: "1.0.0"
+  author: "VibeSpec Team"
+  tags: ["cli", "command-line", "automation", "tooling"]
+  dependencies: []
+  lastUpdated: "2025-09-09"
+  compatibleWith: ["cross-platform"]
+
+templateConfig:
+  generateFrom: "content"
+  variables: []
+
+content: |
+  # CLI Tool Specification
+  project: "CLI Tool"
+  version: "1.0.0"
+  description: >
+    A command-line interface tool providing functionality through commands
+
+  goals:
+    - Provide intuitive and discoverable command interface
+    - Ensure fast execution and minimal resource usage
+    - Deliver helpful error messages and validation
+
+  features:
+    - name: "Command Structure"
+      description: "Well-organized command hierarchy"
+      requirements:
+        - Provide clear and consistent command naming
+        - Support subcommands for complex operations
+        - Include autocomplete and tab completion
+
+    - name: "Option Handling"
+      description: "Robust option parsing and validation"
+      requirements:
+        - Support short and long option forms
+        - Provide sensible default values
+        - Validate option values and combinations
+
+    - name: "User Experience"
+      description: "Intuitive CLI design and user guidance"
+      requirements:
+        - Provide clear progress indicators
+        - Support colored output for better readability

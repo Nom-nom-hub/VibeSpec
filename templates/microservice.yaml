@@ -1,0 +1,52 @@
+# VibeSpec Template: Microservice
+metadata:
+  name: "Microservice"
+  description: "Individual microservice specification with APIs and deployment"
+  category: "Backend"
+  type: "service"
+  version: "1.0.0"
+  author: "VibeSpec Team"
+  tags: ["microservice", "api", "scalability", "deployment"]
+  dependencies: ["docker", "container orchestration", "api gateway"]
+  lastUpdated: "2025-09-09"
+  compatibleWith: ["cloud", "container", "distributed"]
+
+templateConfig:
+  generateFrom: "content"
+  variables: []
+
+content: |
+  # Microservice Specification
+  project: "Microservice"
+  version: "1.0.0"
+  description: >
+    A microservice component with well-defined APIs, scalability, and deployment requirements.
+    Designed to work within a larger microservices architecture.
+
+  goals:
+    - Provide reliable and scalable service functionality
+    - Maintain loose coupling with other services
+    - Ensure observability and monitoring capabilities
+
+  constraints:
+    - Must follow REST/gRPC API standards
+    - Must implement proper logging and monitoring
+
+  features:
+    - name: "Service APIs"
+      description: "Well-defined REST/gRPC endpoints and contracts"
+      requirements:
+        - Define clear API contracts and data schemas
+        - Implement proper HTTP status codes and responses
+
+    - name: "Observability"
+      description: "Monitoring, logging, and metrics collection"
+      requirements:
+        - Implement structured logging with correlation IDs
+        - Provide health check and readiness endpoints
+
+    - name: "Scalability & Reliability"
+      description: "Horizontal scaling and fault tolerance"
+      requirements:
+        - Implement stateless service design
+        - Support graceful shutdown and startup
