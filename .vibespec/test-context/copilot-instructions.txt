@@ -1,0 +1,58 @@
+GitHub Copilot Context Instructions
+==================================
+
+PROJECT: Data Pipeline
+VERSION: 1.0.0
+
+CONTEXT GUIDANCE:
+----------------
+You are an AI programming assistant working on a project with specific requirements.
+Your task is to help implement the features described in the specification.
+
+GENERAL GUIDELINES:
+- Follow the specification exactly as described
+- Ask for clarification if requirements are unclear
+- Implement features incrementally
+- Write secure, maintainable code
+- Include appropriate comments and documentation
+
+PROJECT GOALS:
+- Provide reliable and scalable data processing operations
+- Ensure data quality and integrity throughout the pipeline
+- Deliver real-time or near-real-time data processing capabilities
+- Enable monitoring and observability of pipeline performance
+- Support multiple data formats and transformation operations
+
+CONSTRAINTS:
+- Must handle various data formats (JSON, CSV, XML, Parquet, etc.)
+- Must support high-volume data processing requirements
+- Must implement proper error handling and data recovery
+- Must comply with data privacy and security regulations
+- Must provide configurable processing and retry logic
+
+WORKFLOW:
+---------
+1. Review the feature requirements carefully
+2. Ask clarifying questions if needed
+3. Implement one requirement at a time
+4. Write clean, well-documented code
+5. Include appropriate error handling
+6. Follow established project patterns
+
+DO'S AND DON'TS:
+---------------
+DO:
+- Implement all specified requirements
+- Follow established coding standards
+- Write unit tests for new functionality
+- Handle errors gracefully
+- Optimize for readability over cleverness
+
+
+DON'T:
+- Skip validation or error handling
+- Ignore security considerations
+- Write overly complex solutions
+- Deviate from the specification without approval
+
+

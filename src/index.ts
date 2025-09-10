@@ -14,6 +14,7 @@ export { createCommand } from './lib/cli';
 // Command exports
 export { initCommand } from './commands/init';
 export { exportCommand } from './commands/export';
+export { aiCommand } from './commands/ai';
 export { specifyCommand } from './commands/specify';
 export { planCommand } from './commands/plan';
 export { tasksCommand } from './commands/tasks';

@@ -1,0 +1,93 @@
+{
+  "project": {
+    "name": "Data Pipeline",
+    "version": "1.0.0",
+    "description": "A robust data processing pipeline that extracts, transforms, and loads data from multiple sources while ensuring data quality, reliability, and performance.\n"
+  },
+  "goals": [
+    "Provide reliable and scalable data processing operations",
+    "Ensure data quality and integrity throughout the pipeline",
+    "Deliver real-time or near-real-time data processing capabilities",
+    "Enable monitoring and observability of pipeline performance",
+    "Support multiple data formats and transformation operations"
+  ],
+  "constraints": [
+    "Must handle various data formats (JSON, CSV, XML, Parquet, etc.)",
+    "Must support high-volume data processing requirements",
+    "Must implement proper error handling and data recovery",
+    "Must comply with data privacy and security regulations",
+    "Must provide configurable processing and retry logic"
+  ],
+  "features": [
+    {
+      "name": "Data Ingestion",
+      "description": "Efficient collection and intake of data from various sources",
+      "requirements": [
+        "Support streaming and batch data ingestion methods",
+        "Implement data source connectors for databases and APIs",
+        "Handle structured, semi-structured, and unstructured data",
+        "Provide data validation and quality checks at intake",
+        "Support incremental and full data loading strategies"
+      ],
+      "flows": []
+    },
+    {
+      "name": "Data Transformation",
+      "description": "Comprehensive data processing and transformation operations",
+      "requirements": [
+        "Enable complex data transformations and aggregations",
+        "Support data cleansing and standardization operations",
+        "Implement schema validation and data type conversion",
+        "Provide conditional logic and business rule processing",
+        "Support data deduplication and merge operations"
+      ],
+      "flows": []
+    },
+    {
+      "name": "Data Quality & Monitoring",
+      "description": "Continuous monitoring and quality assurance",
+      "requirements": [
+        "Implement comprehensive data profiling and validation",
+        "Provide real-time pipeline health monitoring",
+        "Enable data lineage and dependency tracking",
+        "Support automated data quality alerting systems",
+        "Create detailed audit logs and error reporting"
+      ],
+      "flows": []
+    }
+  ],
+  "implementation": {
+    "cwd": "C:\\Users\\Kaiden\\Desktop\\VibeSpec",
+    "recentFiles": []
+  },
+  "aiInstructions": {
+    "guidelines": [
+      "Follow the specification exactly as described",
+      "Ask for clarification if requirements are unclear",
+      "Implement features incrementally",
+      "Write secure, maintainable code",
+      "Include appropriate comments and documentation"
+    ],
+    "doNotDo": {
+      "do": [
+        "Implement all specified requirements",
+        "Follow established coding standards",
+        "Write unit tests for new functionality",
+        "Handle errors gracefully",
+        "Optimize for readability over cleverness"
+      ],
+      "dont": [
+        "Skip validation or error handling",
+        "Ignore security considerations",
+        "Write overly complex solutions",
+        "Deviate from the specification without approval"
+      ]
+    },
+    "patterns": [
+      "Use clear, descriptive variable names",
+      "Follow single responsibility principle",
+      "Implement proper separation of concerns",
+      "Write self-documenting code with good structure"
+    ]
+  }
+}
